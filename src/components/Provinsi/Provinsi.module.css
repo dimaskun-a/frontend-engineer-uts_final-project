@@ -1,0 +1,59 @@
+.provinsi{
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.provinsi__title{
+    padding-top: 2rem;
+    font-size: 2.4rem;
+    color:#06D6A0 ;
+    font-weight: 500;
+}
+
+.provinsi__tagline{
+    color:#118AB2;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+}
+
+.table__container{
+    padding-top: 1rem;
+}
+
+.table{
+    border: 1px solid;
+    border-collapse: collapse;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.th{
+    background-color: #06D6A0;
+    color: #FFF;
+    border: 1px solid #64748B;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.td{
+    color: #64748B;
+    border: 1px solid ;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+@media (min-width: 768px){
+    .table{
+        padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    }
+
+    .th{
+        padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    }
+
+    .td{
+        padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    }
+}

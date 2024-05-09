@@ -1,0 +1,49 @@
+.card{
+    background: #fff;
+    width: 384px;
+    height: 320px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card__title{
+    color: #073B4C;
+    padding-top: 6rem;
+    font-weight: 500;
+    font-size: 39px;
+}
+
+.card__detail{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color:#64748B ;
+}
+
+.positif{
+    color: #06D6A0;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.sembuh{
+    color:#118AB2;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.meninggal{
+    color: #EF476F;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/* medium screen*/
+@media (min-width: 768px){
+    .card__container{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

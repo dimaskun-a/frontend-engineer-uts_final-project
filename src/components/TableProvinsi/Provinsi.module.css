@@ -1,0 +1,36 @@
+.table{
+    border: 1px solid;
+    border-collapse: collapse;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.th{
+    color: #06D6A0;
+    border: 1px solid #64748B;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.td{
+    color: #64748B;
+    border: 1px solid ;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+@media (min-width: 768px){
+    .table{
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    }
+
+    .th{
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    }
+
+    .td{
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    }
+}
